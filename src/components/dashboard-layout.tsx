@@ -246,7 +246,7 @@ export function DashboardLayout({ children, className }: DashboardLayoutProps) {
                   <Avatar className="h-8 w-8">
                     <AvatarImage src="/assets/avatars/01.png" alt="User" />
                     <AvatarFallback className="bg-valueEq-teal text-white">
-                      JD
+                      S
                     </AvatarFallback>
                   </Avatar>
                   <div className="hidden md:flex flex-col items-start">
