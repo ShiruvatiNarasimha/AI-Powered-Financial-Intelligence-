@@ -672,9 +672,14 @@ const Navbar = () => {
                 <button className="w-full py-2.5 text-sm font-medium rounded-lg border border-gray-200 text-gray-700 hover:bg-gray-50 transition-colors">
                   Log in
                 </button>
-                <button className="w-full py-2.5 text-sm font-medium rounded-lg text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-sm transition-all">
-                  Get Started
-                </button>
+                <nav className="container mx-auto px-6 py-4">
+                  <button
+                    onClick={() => navigate("/dashboard")}
+                    className="ml-2 px-5 py-2 text-sm font-medium rounded-full text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-md hover:shadow-lg transition-all"
+                  >
+                    Get Started
+                  </button>
+                </nav>
               </div>
             </div>
           </motion.div>
